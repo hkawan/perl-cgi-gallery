@@ -1,0 +1,42 @@
+header
+{
+	text-align: center;
+}
+	
+body
+{
+	border: 0px solid #f00;
+	height: 90%;
+	left: 0;
+	margin: 0 auto;
+	/*position: absolute;*/
+	right: 0;
+	width: 70%;
+}
+
+#txtUserName
+{
+	float: right;
+	background-color: transparent;
+	font-size: 20px;
+	border-width:0px;
+
+}
+
+#imgPicasso
+{
+	padding-top: 30px;
+	width:350px;
+	height:500px;
+}	
+	
+form
+{
+	padding: 0px 100px;
+}
+
+p
+{
+	font-size: 20px;
+}
+</style>
