@@ -1,6 +1,5 @@
 #!/usr/bin/perl
-# Document: Assingment 3, WEB322
-# Created by: Haroon Awan
+
 
 use strict;
 use warnings;
@@ -37,11 +36,11 @@ EHTML
 
 #my $html_form = <<"EFORM";
 
-my $serverDb = "int322_173sa04";
-my $serverName = "db-mysql";
-my $serverPort = "zenit.senecac.on.ca:3306";
+my $serverDb = "**MASKED**";
+my $serverName = "*MASKED**";
+my $serverPort = "*MASKED**";
 
-my $serverUser = "int322_173sa04";
+my $serverUser = "*MASKED**";
 my $serverPass = "**Masked**";
 my $dbh = DBI->connect("DBI:mysql:database=$serverDb;host=$serverName;port=$serverPort", $serverUser, $serverPass);
 
